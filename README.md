@@ -30,11 +30,13 @@ Ejecuta el script con los siguientes parámetros:
 python3 get-sesiones.py -u USERNAME -p PASSWORD -i HOST_OR_FILE_OR_CIDR [-d DOMAIN] [-v]
 ```
 ### Parámetros
+```sh
 -u, --username: Nombre de usuario.
 -p, --password: Contraseña.
 -i, --host_or_file_or_cidr: Host, archivo con una lista de hosts, o rango CIDR.
 -d, --domain: (Opcional) Dominio.
 -v, --verbose: (Opcional) Habilita la salida detallada.
+```
 
 ## Ejemplo
 ```sh
